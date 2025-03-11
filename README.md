@@ -18,7 +18,7 @@ bash run_leishen.sh
 ```
 ![](./image/driver.png)
 
-# second 
+# second  compile lego_loam
 
 
 ```
