@@ -1,0 +1,8 @@
+prefix=/home/lg/leishen_c16_lego_loam/leishen_c16_lego_loam/lslida_C16/install
+
+Name: lslidar_cx_driver
+Description: Description of lslidar_cx_driver
+Version: 4.3.1
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+Requires: angles pcl_ros roscpp sensor_msgs tf dynamic_reconfigure nodelet message_runtime std_msgs roscpp sensor_msgs pluginlib nodelet pcl_ros pcl_conversions
